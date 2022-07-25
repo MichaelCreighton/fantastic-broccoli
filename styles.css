@@ -221,3 +221,38 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.wrapper {
+  max-width: 1300px;
+  width: 90vw;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 30px;
+}
+
+.mse {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pics {
+  display: flex;
+  max-width: 90vw;
+}
+
+.pdf {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
