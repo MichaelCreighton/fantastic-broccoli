@@ -227,6 +227,14 @@ html {
   width: 90vw;
   margin: 0 auto;
 }
+
+img {
+  max-width: 50%;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid green;
+  box-shadow: 5px 5px 20px gray;
+}
 .top {
   display: flex;
   flex-direction: column;
@@ -243,7 +251,6 @@ html {
 
 .pics {
   display: flex;
-  max-width: 90vw;
 }
 
 .pdf {
