@@ -241,7 +241,6 @@ header {
 
 .title {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin: 30px 30px;
@@ -371,6 +370,13 @@ header {
 @media screen and (max-width: 1000px) {
   .clip {
     display: none;
+  }
+  header {
+    border-radius: 0% 0% 40px 40px;
+  }
+  .top {
+    /* justify-content: center; */
+    align-items: center;
   }
   .title h1 {
     width: 100%;
