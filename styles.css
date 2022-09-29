@@ -386,6 +386,7 @@ header {
   }
   .copy {
     font-size: 1.5rem;
+    width: 90%;
   }
   .twoPics {
     flex-direction: column;
@@ -394,8 +395,11 @@ header {
 
   .twoPics img {
     margin: 20px;
-    max-width: 70%;
+    max-width: 80%;
     border-radius: 40px;
+  }
+  .pdf {
+    width: 90%;
   }
 }
 
