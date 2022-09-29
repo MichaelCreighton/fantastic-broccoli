@@ -253,6 +253,11 @@ header {
   color: #1c1e1d;
 }
 
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
 .logo {
   width: 30%;
 }
@@ -406,6 +411,9 @@ header {
 @media screen and (max-width: 600px) {
   .logo {
     width: 75%;
+  }
+  .title h1 {
+    font-size: 2rem;
   }
   .copy {
     font-size: 1rem;
