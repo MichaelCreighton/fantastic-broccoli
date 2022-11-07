@@ -229,6 +229,10 @@ html {
   margin: 0 auto;
 }
 
+p {
+  line-height: 1.5;
+}
+
 img {
   object-fit: cover;
 }
@@ -244,7 +248,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 30px 30px;
+  margin: 0 30px 30px 30px;
 }
 
 .title h1 {
@@ -274,8 +278,7 @@ header {
   background-color: #e5f8ed;
   border-radius: 40px;
   align-items: center;
-  margin-bottom: 100px;
-  /* padding-top: 30px; */
+  margin-bottom: 50px;
 }
 
 .smallTitle {
@@ -329,6 +332,7 @@ header {
 
 .copy li {
   padding: 0 5px 0 5px;
+  line-height: 1.8;
 }
 
 .pdf {
@@ -339,7 +343,7 @@ header {
   background-color: #bdd4c6;
   border-radius: 40px;
   width: 40%;
-  margin: 50px 0 100px 0;
+  margin: 30px 0 50px 0;
   padding: 10px;
 }
 
@@ -356,6 +360,10 @@ header {
   padding: 0 10px 0 10px;
 }
 
+.foot a {
+  color: white;
+}
+
 .foot i {
   padding-right: 10px;
 }
@@ -370,7 +378,7 @@ header {
 .content {
   background-color: #e5f8ed;
   border-radius: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 30px 0 30px 0;
 }
 
